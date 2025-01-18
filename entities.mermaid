@@ -1,0 +1,13 @@
+erDiagram
+    User ||--|{ TODO : s
+    User {
+        id LONG
+        username STRING
+        password STRING
+    }
+    TODO {
+        id LONG
+        title String
+        is_completed boolean
+        user_id User
+    }
